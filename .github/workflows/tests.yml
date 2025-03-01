@@ -31,7 +31,7 @@ jobs:
         sleep 20
 
         # run the tests
-        docker-compose exec -T pg ./fixme.sh
+        docker-compose exec -T pg ./run_tests.sh
 
         # FIXME:
         # the docker-compose command above will generate an error when the github action is run
